@@ -1,0 +1,67 @@
+{
+  "common": {
+    "appName": "Photo Community",
+    "appDescription": "A private photo-sharing community",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back"
+  },
+  "navigation": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "photoWalks": "Photo Walks",
+    "blog": "Blog",
+    "messages": "Messages",
+    "profile": "Profile"
+  },
+  "home": {
+    "title": "Welcome to Photo Community",
+    "subtitle": "A private space to share and enjoy photography with friends",
+    "viewGallery": "View Gallery",
+    "explorePhotoWalks": "Explore Photo Walks",
+    "recentPosts": "Recent Posts",
+    "noPostsYet": "No posts yet. Start sharing photos!"
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Explore photos organized by categories",
+    "landscape": "Landscape",
+    "portrait": "Portrait",
+    "street": "Street",
+    "nature": "Nature",
+    "noCategoriesAvailable": "No categories available yet.",
+    "addPhotosToGetStarted": "Add photos to the public/photos folders to get started!",
+    "noPhotosInCategory": "No photos in this category yet.",
+    "photo": "photo",
+    "photos": "photos"
+  },
+  "photoWalks": {
+    "title": "Photo Walks",
+    "subtitle": "Explore collections from photo walks and adventures",
+    "noPhotoWalksYet": "No photo walks yet.",
+    "featureComingSoon": "Photo walks feature coming soon!"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Stories and insights from photo walks",
+    "noBlogPostsYet": "No blog posts yet.",
+    "featureComingSoon": "Blog feature coming soon!"
+  },
+  "messages": {
+    "title": "Messages",
+    "subtitle": "Chat with your friends",
+    "noMessagesYet": "No messages yet.",
+    "featureComingSoon": "Messaging feature coming soon!"
+  },
+  "profile": {
+    "title": "Profile",
+    "subtitle": "Manage your profile and settings",
+    "featureComingSoon": "Profile feature coming soon!"
+  }
+}

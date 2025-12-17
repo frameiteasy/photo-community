@@ -1,0 +1,67 @@
+{
+  "common": {
+    "appName": "Społeczność Fotografów",
+    "appDescription": "Prywatna społeczność do dzielenia się fotografiami ze znajomymi",
+    "loading": "Ładowanie...",
+    "error": "Błąd",
+    "success": "Sukces",
+    "cancel": "Anuluj",
+    "save": "Zapisz",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "close": "Zamknij",
+    "back": "Wróć"
+  },
+  "navigation": {
+    "home": "Strona główna",
+    "gallery": "Galeria",
+    "photoWalks": "Spacery fotograficzne",
+    "blog": "Blog",
+    "messages": "Wiadomości",
+    "profile": "Profil"
+  },
+  "home": {
+    "title": "Witaj w Społeczności Fotografów",
+    "subtitle": "Prywatna przestrzeń do dzielenia się fotografiami i cieszenia się nimi ze znajomymi",
+    "viewGallery": "Przejdź do Galerii",
+    "explorePhotoWalks": "Odkryj Spacery Fotograficzne",
+    "recentPosts": "Ostatnie posty",
+    "noPostsYet": "Brak postów. Zacznij dzielić się fotografiami!"
+  },
+  "gallery": {
+    "title": "Galeria Fotografii",
+    "subtitle": "Poznaj fotografie zorganizowane w kategoriach",
+    "landscape": "Pejzaż",
+    "portrait": "Portret",
+    "street": "Ulica",
+    "nature": "Przyroda",
+    "noCategoriesAvailable": "Brak dostępnych kategorii.",
+    "addPhotosToGetStarted": "Dodaj zdjęcia do folderów public/photos aby rozpocząć!",
+    "noPhotosInCategory": "Brak zdjęć w tej kategorii.",
+    "photo": "zdjęcie",
+    "photos": "zdjęcia"
+  },
+  "photoWalks": {
+    "title": "Spacery Fotograficzne",
+    "subtitle": "Poznaj kolekcje ze spacerów fotograficznych i przygód",
+    "noPhotoWalksYet": "Brak spacerów fotograficznych.",
+    "featureComingSoon": "Funkcja spacerów fotograficznych wkrótce!"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Opowieści i refleksje ze spacerów fotograficznych",
+    "noBlogPostsYet": "Brak postów na blogu.",
+    "featureComingSoon": "Funkcja bloga wkrótce!"
+  },
+  "messages": {
+    "title": "Wiadomości",
+    "subtitle": "Rozmawiaj ze swoimi przyjaciółmi",
+    "noMessagesYet": "Brak wiadomości.",
+    "featureComingSoon": "Funkcja wiadomości wkrótce!"
+  },
+  "profile": {
+    "title": "Profil",
+    "subtitle": "Zarządzaj swoim profilem i ustawieniami",
+    "featureComingSoon": "Funkcja profilu wkrótce!"
+  }
+}
