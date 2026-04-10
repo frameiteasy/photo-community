@@ -15,10 +15,12 @@
   "navigation": {
     "home": "Strona główna",
     "gallery": "Galeria",
+    "albums": "Albumy",
     "photoWalks": "Spacery fotograficzne",
     "blog": "Blog",
-    "messages": "Wiadomości",
-    "profile": "Profil"
+    "messages": "Posty",
+    "profile": "Profil",
+    "contact": "Kontakt"
   },
   "home": {
     "title": "Witaj w Społeczności Fotografów",
@@ -26,7 +28,23 @@
     "viewGallery": "Przejdź do Galerii",
     "explorePhotoWalks": "Odkryj Spacery Fotograficzne",
     "recentPosts": "Ostatnie posty",
-    "noPostsYet": "Brak postów. Zacznij dzielić się fotografiami!"
+    "noPostsYet": "Brak postów. Zacznij dzielić się fotografiami!",
+    "hero": {
+      "tagline": "Moje zdjęcia. Moje spacery. Dla bliskich mi ludzi.",
+      "ctaGallery": "Przeglądaj galerię",
+      "ctaWalks": "Czytaj blog"
+    },
+    "sections": {
+      "recentPhotos": "Ostatnie zdjęcia",
+      "seeAll": "Zobacz wszystkie zdjęcia",
+      "browseByCategory": "Przeglądaj według kategorii",
+      "latestWalk": "Ostatni spacer",
+      "readMore": "Czytaj dalej",
+      "browseByAlbum": "Przeglądaj albumy",
+      "seeAllAlbums": "Zobacz wszystkie albumy",
+      "fromTheBlog": "Z bloga",
+      "readAllPosts": "Wszystkie wpisy"
+    }
   },
   "gallery": {
     "title": "Galeria Fotografii",
@@ -41,6 +59,19 @@
     "photo": "zdjęcie",
     "photos": "zdjęcia"
   },
+  "albums": {
+    "title": "Albumy",
+    "subtitle": "Kolekcje zdjęć z podróży i wydarzeń",
+    "noAlbumsYet": "Brak albumów.",
+    "noPhotosInAlbum": "Brak zdjęć w tym albumie.",
+    "backToAlbums": "Wróć do albumów"
+  },
+  "manage": {
+    "title": "Zarządzaj zdjęciami",
+    "subtitle": "Kliknij zdjęcie, aby przypisać je do kategorii i albumów.",
+    "categories": "Kategorie",
+    "albums": "Albumy"
+  },
   "photoWalks": {
     "title": "Spacery Fotograficzne",
     "subtitle": "Poznaj kolekcje ze spacerów fotograficznych i przygód",
@@ -49,19 +80,59 @@
   },
   "blog": {
     "title": "Blog",
-    "subtitle": "Opowieści i refleksje ze spacerów fotograficznych",
-    "noBlogPostsYet": "Brak postów na blogu.",
-    "featureComingSoon": "Funkcja bloga wkrótce!"
+    "latestPost": "Najnowszy wpis",
+    "previousPosts": "Poprzednie wpisy",
+    "readMore": "Czytaj dalej",
+    "backToBlog": "Wróć do bloga",
+    "readingTime": "{{count}} min czytania",
+    "noPostsYet": "Brak wpisów.",
+    "prevPost": "Poprzedni",
+    "nextPost": "Następny",
+    "morePosts": "Więcej wpisów"
   },
-  "messages": {
-    "title": "Wiadomości",
-    "subtitle": "Rozmawiaj ze swoimi przyjaciółmi",
-    "noMessagesYet": "Brak wiadomości.",
-    "featureComingSoon": "Funkcja wiadomości wkrótce!"
+  "posts": {
+    "title": "Posty",
+    "noPostsYet": "Brak postów.",
+    "loadMore": "Załaduj więcej",
+    "readMore": "Czytaj dalej",
+    "showLess": "Pokaż mniej",
+    "newPost": "Nowy post",
+    "viewOlderComments": "Zobacz {{count}} starszy komentarz",
+    "viewOlderComments_plural": "Zobacz {{count}} starsze komentarze",
+    "reactions": {
+      "love": "Uwielbiam",
+      "wow": "Wow",
+      "fire": "Ogień",
+      "clap": "Brawo",
+      "haha": "Haha"
+    }
   },
   "profile": {
     "title": "Profil",
     "subtitle": "Zarządzaj swoim profilem i ustawieniami",
     "featureComingSoon": "Funkcja profilu wkrótce!"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Masz pytanie albo chcesz się przywitać? Napisz do mnie.",
+    "form": {
+      "name": "Twoje imię",
+      "namePlaceholder": "Anna",
+      "email": "Adres e-mail",
+      "emailPlaceholder": "anna@example.com",
+      "message": "Wiadomość",
+      "messagePlaceholder": "O czym chcesz napisać?",
+      "send": "Wyślij wiadomość",
+      "sending": "Wysyłanie…"
+    },
+    "errors": {
+      "nameRequired": "Podaj swoje imię.",
+      "emailRequired": "Podaj adres e-mail.",
+      "emailInvalid": "To nie wygląda jak poprawny adres e-mail.",
+      "messageRequired": "Napisz wiadomość.",
+      "submitFailed": "Coś poszło nie tak. Spróbuj ponownie."
+    },
+    "successTitle": "Wiadomość wysłana!",
+    "successMessage": "Dziękuję za kontakt. Odpiszę wkrótce."
   }
 }

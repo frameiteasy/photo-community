@@ -4,12 +4,13 @@ import { Layout } from './components/layout';
 import { HomePage } from './pages/Home';
 import { GalleryPage } from './pages/Gallery';
 import { GalleryCategoryPage } from './pages/Gallery/GalleryCategoryPage';
-import { PhotoWalkPage } from './pages/PhotoWalk';
-import { BlogPage } from './pages/Blog';
-import { MessagesPage } from './pages/Messages';
+import { AlbumsPage, AlbumDetailPage } from './pages/Albums';
+import { BlogPage, BlogPostPage } from './pages/Blog';
+import { PostsPage } from './pages/Posts';
 import { ProfilePage } from './pages/Profile';
+import { ContactPage } from './pages/Contact';
+import { ManagePage } from './pages/Manage';
 
-// Create a client for React Query
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
@@ -28,12 +29,14 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/gallery/:category" element={<GalleryCategoryPage />} />
-            <Route path="/photo-walks" element={<PhotoWalkPage />} />
-            <Route path="/photo-walks/:slug" element={<PhotoWalkPage />} />
+            <Route path="/albums" element={<AlbumsPage />} />
+            <Route path="/albums/:slug" element={<AlbumDetailPage />} />
             <Route path="/blog" element={<BlogPage />} />
-            <Route path="/blog/:slug" element={<BlogPage />} />
-            <Route path="/messages" element={<MessagesPage />} />
+            <Route path="/blog/:slug" element={<BlogPostPage />} />
+            <Route path="/posts" element={<PostsPage />} />
             <Route path="/profile" element={<ProfilePage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/manage" element={<ManagePage />} />
           </Routes>
         </Layout>
       </Router>

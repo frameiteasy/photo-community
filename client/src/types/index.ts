@@ -31,6 +31,33 @@ export interface GalleryCategory {
   photoCount: number;
 }
 
+// Album Types
+export interface Album {
+  id: string;
+  slug: string;
+  name: string;
+  description?: string;
+  location?: string;
+  date?: string;
+  photoCount: number;
+  coverPhotoUrl?: string;
+}
+
+export interface AlbumDetail extends Album {
+  photos: Photo[];
+}
+
+export interface PhotoAssignment {
+  id: string;
+  slug: string;
+  name: string;
+}
+
+export interface PhotoWithAssignments extends Photo {
+  categories: PhotoAssignment[];
+  albums: PhotoAssignment[];
+}
+
 // Photo Walk Types
 export interface PhotoWalk {
   id: string;

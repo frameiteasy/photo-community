@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { API_BASE_URL } from '@/utils/constants';
+import { getGuestId, getDisplayName } from '@/utils/guestId';
 
 // Create axios instance with default config
 export const apiClient = axios.create({
@@ -12,11 +13,10 @@ export const apiClient = axios.create({
 // Request interceptor (for adding auth tokens, etc.)
 apiClient.interceptors.request.use(
   (config) => {
-    // TODO: Add authentication token when auth is implemented
-    // const token = localStorage.getItem('token');
-    // if (token) {
-    //   config.headers.Authorization = `Bearer ${token}`;
-    // }
+    config.headers['X-Viewer-Id'] = getGuestId();
+    const name = getDisplayName();
+    if (name) config.headers['X-Display-Name'] = name;
+    // TODO: replace with JWT Bearer token when auth is implemented
     return config;
   },
   (error) => {

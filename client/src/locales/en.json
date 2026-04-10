@@ -15,10 +15,12 @@
   "navigation": {
     "home": "Home",
     "gallery": "Gallery",
+    "albums": "Albums",
     "photoWalks": "Photo Walks",
     "blog": "Blog",
-    "messages": "Messages",
-    "profile": "Profile"
+    "messages": "Posts",
+    "profile": "Profile",
+    "contact": "Contact"
   },
   "home": {
     "title": "Welcome to Photo Community",
@@ -26,7 +28,23 @@
     "viewGallery": "View Gallery",
     "explorePhotoWalks": "Explore Photo Walks",
     "recentPosts": "Recent Posts",
-    "noPostsYet": "No posts yet. Start sharing photos!"
+    "noPostsYet": "No posts yet. Start sharing photos!",
+    "hero": {
+      "tagline": "My photos. My walks. For the people I know.",
+      "ctaGallery": "Browse Gallery",
+      "ctaWalks": "Read the Blog"
+    },
+    "sections": {
+      "recentPhotos": "Recent Photos",
+      "seeAll": "See all photos",
+      "browseByCategory": "Browse by Category",
+      "latestWalk": "Latest Walk",
+      "readMore": "Read more",
+      "browseByAlbum": "Browse by Album",
+      "seeAllAlbums": "See all albums",
+      "fromTheBlog": "From the Blog",
+      "readAllPosts": "Read all posts"
+    }
   },
   "gallery": {
     "title": "Photo Gallery",
@@ -41,6 +59,19 @@
     "photo": "photo",
     "photos": "photos"
   },
+  "albums": {
+    "title": "Albums",
+    "subtitle": "Curated photo collections from trips and events",
+    "noAlbumsYet": "No albums yet.",
+    "noPhotosInAlbum": "No photos in this album yet.",
+    "backToAlbums": "Back to Albums"
+  },
+  "manage": {
+    "title": "Manage Photos",
+    "subtitle": "Click a photo to assign it to categories and albums.",
+    "categories": "Categories",
+    "albums": "Albums"
+  },
   "photoWalks": {
     "title": "Photo Walks",
     "subtitle": "Explore collections from photo walks and adventures",
@@ -49,19 +80,59 @@
   },
   "blog": {
     "title": "Blog",
-    "subtitle": "Stories and insights from photo walks",
-    "noBlogPostsYet": "No blog posts yet.",
-    "featureComingSoon": "Blog feature coming soon!"
+    "latestPost": "Latest post",
+    "previousPosts": "Previous posts",
+    "readMore": "Read more",
+    "backToBlog": "Back to blog",
+    "readingTime": "{{count}} min read",
+    "noPostsYet": "No posts yet.",
+    "prevPost": "Previous",
+    "nextPost": "Next",
+    "morePosts": "More posts"
   },
-  "messages": {
-    "title": "Messages",
-    "subtitle": "Chat with your friends",
-    "noMessagesYet": "No messages yet.",
-    "featureComingSoon": "Messaging feature coming soon!"
+  "posts": {
+    "title": "Posts",
+    "noPostsYet": "Nothing posted yet.",
+    "loadMore": "Load more",
+    "readMore": "Read more",
+    "showLess": "Show less",
+    "newPost": "New Post",
+    "viewOlderComments": "View {{count}} older comment",
+    "viewOlderComments_plural": "View {{count}} older comments",
+    "reactions": {
+      "love": "Love",
+      "wow": "Wow",
+      "fire": "Fire",
+      "clap": "Clap",
+      "haha": "Haha"
+    }
   },
   "profile": {
     "title": "Profile",
     "subtitle": "Manage your profile and settings",
     "featureComingSoon": "Profile feature coming soon!"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a question or just want to say hello? Send me a message.",
+    "form": {
+      "name": "Your name",
+      "namePlaceholder": "Anna",
+      "email": "Email address",
+      "emailPlaceholder": "anna@example.com",
+      "message": "Message",
+      "messagePlaceholder": "What's on your mind?",
+      "send": "Send message",
+      "sending": "Sending…"
+    },
+    "errors": {
+      "nameRequired": "Please enter your name.",
+      "emailRequired": "Please enter your email address.",
+      "emailInvalid": "That doesn't look like a valid email address.",
+      "messageRequired": "Please write a message.",
+      "submitFailed": "Something went wrong. Please try again."
+    },
+    "successTitle": "Message sent!",
+    "successMessage": "Thanks for reaching out. I'll get back to you soon."
   }
 }
